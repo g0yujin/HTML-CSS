@@ -118,6 +118,8 @@
     background-repeat : no-repeat;
     background-position: center;
     padding: 1px;
+    text-align: center;
+    position: relative;
 }
 
 .main-title {
@@ -129,4 +131,38 @@
 .ad-shoes {
     font-size: 25px;
     color: white;
+}
+
+.main-content {
+    color:white;
+    font-size: 25px;
+}
+
+.main-button {
+    padding:15px;
+    font-size: 20px;
+    background:white;
+    border:none;
+    border-radius:5px;
+    position: absolute;
+    left : 0;
+    right : 0; 
+    margin-left : auto;
+    margin-right : auto;
+    width : 150px;
+}
+
+.sub-box {
+    background: gray;
+    width:500px;
+    height: 130px;
+    position:fixed;
+    top:400px;
+    left: 80px;
+    text-align: center;
+    padding: 20px
+}
+
+.sub-title {
+    
 }
